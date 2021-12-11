@@ -1,0 +1,146 @@
+body{
+    background-color: #661C77 !important;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    /* font-size: 15px; */
+}
+
+h1{
+/*     font-size: 3.5rem !important;
+ */    font-weight: bolder;
+ width: max-content;
+}
+
+h2{
+    color: black;
+    width: max-content;
+}
+
+h2 ul li{
+    font-weight: bolder;
+/*     font-size: 10px;
+ */}
+
+form{
+    /* width: 40vw; */
+    width: max-content;
+}
+
+label{
+    width: 35vw;
+/*     font-size: 18px; */
+    font-weight: bolder;
+    background-color: #146C43;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+input{
+    width: 35vw;
+    /* font-size: 1.5rem; */
+    font-weight: bolder;
+}
+
+form button{
+    margin: 5px;
+}
+
+button{
+    border: 2px solid;
+    border-radius: 2px;
+    width: max-content;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn-success{
+    background-color: #146C43;    
+    margin: 10px auto;
+}
+
+.btn-primary{
+    background-color: #0250C4;
+    margin: 5px;
+}
+
+#personaje, #inventario{    
+    border: 2px solid;
+    background-color: #146C43;
+    padding: 5px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#personaje2{
+    width: 25%;
+    border: 2px solid;
+    background-color: #146C43;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#char_info{
+    width: 75%;
+}
+
+
+#lista-inventario{
+    width: 90%;
+}
+
+div{
+    border-radius: 10px;
+    font-weight: 600;
+    width: max-content;
+    margin: 5px;
+}
+
+#stats-inicio{
+    display: flex;
+    flex-direction: column;
+}
+
+#div-victoria, #div-derrota, #combate-log, #item-encontrado, #inventario-lleno, #subida-nivel, #div-experiencia, #final-partida{
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    width: 75%;
+}
+
+#div-victoria{
+    background-color: rgb(28, 180, 99);
+}
+
+#div-derrota{
+    background-color: rgb(214, 120, 43);
+}
+
+#combate-log{
+    background-color: rgb(65, 165, 201);
+}
+
+#subida-nivel, #div-experiencia, #item-encontrado {
+    background-color: rgb(235, 231, 16);
+    width: 75%;
+}
+
+#inventario-lleno {
+    background-color: rgb(216, 26, 20);
+}
+
+#final-partida{
+    background-color: rgb(216, 26, 20);
+}
+
+#marco, #botones-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
